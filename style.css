@@ -1,4 +1,24 @@
 body {
-    background-color: slategray;
+    background-color: rgb(44, 44, 44);
     font-family: sans-serif;
+    padding: 32px 20%;
+}
+
+p {
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+img.full-width {
+    width: 100%;
+    height: auto;
 }
