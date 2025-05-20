@@ -1,15 +1,15 @@
 body {
     background-color: rgb(44, 44, 44);
     font-family: sans-serif;
-    padding: 32px 20%;
+    padding: 32px 10%;
 }
 
 p {
-    color: #ffffff;
+    color: #fff;
 }
 
 h1 {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
 
@@ -21,4 +21,19 @@ h2 {
 img.full-width {
     width: 100%;
     height: auto;
+}
+
+.top-div {
+    justify-content: center;
+    display: flex;
+    gap: 10%;
+}
+
+.top-links {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.top-links:hover {
+    font-weight: bold;
 }
