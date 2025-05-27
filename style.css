@@ -21,6 +21,10 @@ h3 {
     color: #fff;
 }
 
+a {
+    color: #96abff;
+}
+
 img.full-width {
     width: 100%;
     height: auto;
@@ -38,5 +42,38 @@ img.full-width {
 }
 
 .top-links:hover {
+    font-weight: bold;
+}
+
+.stock-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.stock-item {
+    background-color: #333;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 calc(25% - 18px); /* 4 items per row with gap */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.stock-item img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+.stock-item h3 {
+    margin: 12px 0 6px;
+    font-size: 1.1em;
+}
+
+.stock-item p {
     font-weight: bold;
 }
