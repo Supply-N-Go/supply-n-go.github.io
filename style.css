@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(30, 30, 30);
     font-family: sans-serif;
     padding: 32px 10%;
 }
@@ -11,6 +11,7 @@ p {
 h1 {
     color: #fff;
     text-align: center;
+    animation: rainbow 6s linear infinite;
 }
 
 h2 {
@@ -76,4 +77,14 @@ img.full-width {
 
 .stock-item p {
     font-weight: bold;
+}
+
+@keyframes rainbow {
+    0%   { text-shadow: 0 0 10px red; }
+    16.7% { text-shadow: 0 0 10px orange; }
+    33.3% { text-shadow: 0 0 10px yellow; }
+    50%  { text-shadow: 0 0 10px green; }
+    66.7% { text-shadow: 0 0 10px blue; }
+    83.3% { text-shadow: 0 0 10px indigo; }
+    100% { text-shadow: 0 0 10px violet; }
 }
