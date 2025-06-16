@@ -26,7 +26,7 @@ a {
     color: #96abff;
 }
 
-img.full-width {
+img {
     width: 100%;
     height: auto;
 }
@@ -39,11 +39,13 @@ img.full-width {
 
 .top-links {
     color: #fff;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .top-links:hover {
     font-weight: bold;
+    text-decoration: underline;
+    text-shadow: 0 0 2px #96abff;
 }
 
 .stock-grid {
@@ -87,4 +89,10 @@ img.full-width {
     66.7% { text-shadow: 0 0 10px blue; }
     83.3% { text-shadow: 0 0 10px indigo; }
     100% { text-shadow: 0 0 10px violet; }
+}
+
+footer {
+    font-size: 75%;
+    color: #666;
+    text-align: right;
 }
